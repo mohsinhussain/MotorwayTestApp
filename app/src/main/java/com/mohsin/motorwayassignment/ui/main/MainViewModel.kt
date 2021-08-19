@@ -5,7 +5,7 @@ import androidx.lifecycle.*
 class MainViewModel : ViewModel() {
 
     //variable that will listen to user's input
-    val userInput = MutableLiveData<String>("This is the initial text. We will be overserving this information.")
+    val userInput = MutableLiveData<String>("This is the initial text. We will be observing this information.")
     //variable that will display the word count
     val wordCount = MutableLiveData("Word Count: 0")
 
